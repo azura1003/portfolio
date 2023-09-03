@@ -20,8 +20,8 @@ const Hero = () => {
           Je developpe des sites internets, applications et design <br className="sm:block hidden"/> pour mes clients.
         </p>
       </div>
-
     </div>
+    <ComputersCanvas />
     </section>
   )
 }
