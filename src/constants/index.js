@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "Developpeur React",
+      title: "Developpeur frontend",
       icon: mobile,
     },
     {
