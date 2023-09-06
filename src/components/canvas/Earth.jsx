@@ -10,7 +10,7 @@ const Earth = () => {
   return (
     <primitive 
       object={earth.scene}
-      scale={2}
+      scale={0.4}
       position-y={0}
       rotation-y={0}
     
@@ -32,6 +32,10 @@ const EarthCanvas = () => {
     }}
     
     >
+      <ambientLight intensity={1} />
+      <directionalLight position={[0, 10, 5]} intensity={1} />
+
+
       <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls 
           autoRotate

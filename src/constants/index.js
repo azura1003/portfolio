@@ -172,35 +172,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Je croyais qu'aucun site web ne pourrait égaler la beauté de notre produit, mais ManoDev a dépassé toutes mes attentes.",
+      name: "Sara Rodriguez",
+      designation: "Direction Artistique",
+      company: "MybYT",
+      image: "https://randomuser.me/api/portraits/women/82.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "Jamais je n'avais rencontré un développeur web aussi investi dans la réussite de ses clients que Manodev",
+      name: "Chris Lavandier",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://randomuser.me/api/portraits/men/66.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Après que ManoDev a optimisé notre site web, notre trafic a augmenté de 50%. Nous ne saurions le remercier assez !",
       name: "Lisa Wang",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "456 Rives des lumières",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "My Precious Coiffure",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Découvrez l'élégance intemporelle de MPC salon de coiffure de prestige. Où chaque coupe et coiffure reflète le raffinement et le savoir-faire d'artisans passionnés.",
       tags: [
         {
           name: "react",
@@ -208,31 +208,31 @@ import {
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
+          color: "gray-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Azura Network",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Réseau social des joueurs, connectez vous à la plus grande communauté de joueurs. Innovant et immersif, vivez votre passion fond.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Android",
+          color: "grey-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Vue.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Symfony",
           color: "pink-text-gradient",
         },
       ],
@@ -240,9 +240,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Traveloori",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Une plateforme de réservation de voyages complète qui permet aux utilisateurs de réserver des vols, hôtels, voitures, et qui propose des recommandations pour les destinations populaires.",
       tags: [
         {
           name: "nextjs",

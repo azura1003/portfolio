@@ -20,7 +20,7 @@ const FeedbacksCard = ({ index, testimonial, name, designation, company, image }
 
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} de {company}
           </p>
         </div>
 
