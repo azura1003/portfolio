@@ -17,22 +17,24 @@ import {
     docker,
     meta,
     starbucks,
+    ariane,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    azura,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "A Propos",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Carrière",
     },
     {
       id: "contact",
@@ -116,11 +118,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Chief Technology officer",
+      company_name: "Azura Network",
+      icon: azura,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - Now",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,29 +131,29 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Ingénieur en Intelligence Artificielle",
+      company_name: "ArianeSpace",
+      icon: ariane,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2019 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développement et maintenance de systèmes d'IA utilisant TensorFlow, PyTorch et d'autres plateformes d'apprentissage profond.",
+        "Collaboration avec des équipes pluridisciplinaires, incluant data scientists, ingénieurs en robotique et chefs de produit pour créer des solutions spatiales innovantes.",
+        "Mise en œuvre d'algorithmes de traitement d'image et garantie de l'optimisation des modèles pour des performances en temps réel.",
+        "Participation aux revues de code et apport de retours constructifs sur les techniques et méthodologies d'apprentissage automatique.",
       ],
     },
     {
-      title: "Web Developer",
+      title: "Ingénieur devops",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conception et mise en œuvre d'infrastructures cloud évolutives et résilientes pour soutenir la croissance rapide de la plateforme e-commerce.",
+        "Collaboration étroite avec les équipes de développement pour automatiser les processus de déploiement, garantir la continuité des services et optimiser les performances.",
+        "Gestion et amélioration des pipelines CI/CD, en intégrant les meilleures pratiques pour assurer des livraisons rapides et fiables.",
+        "Surveillance proactive des systèmes en production, avec mise en place d'alertes et de mécanismes de récupération pour assurer une disponibilité maximale.",
       ],
     },
     {
@@ -192,7 +194,7 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Rives des lumières",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/women/85.jpg",
     },
   ];
   
