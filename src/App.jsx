@@ -11,8 +11,8 @@ const App = () => {
         <Hero />
       </div>
       <About />
-      <Experience />
-      <Tech />
+      
+
       <Works />
       <Feedbacks />
      <div className="relative z-0">
@@ -21,6 +21,10 @@ const App = () => {
      </div>
      </div>
     </BrowserRouter>
+         // <div className="hidden md:block">
+        // <Tech />
+       // </div>
+      // <Experience />
   )
 }
 
