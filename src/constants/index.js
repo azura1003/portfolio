@@ -34,7 +34,7 @@ import {
     },
     {
       id: "work",
-      title: "Carrière",
+      title: "Mes Projets",
     },
     {
       id: "contact",
