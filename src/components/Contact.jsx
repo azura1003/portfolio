@@ -8,6 +8,8 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState ({
@@ -17,8 +19,52 @@ const Contact = () => {
   })
 
   const [loading, setLoading] = useState (false); 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+
+
+
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setForm ({ ...form, [name]: value })
+
+
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_ntcrnpj',
+      'template_tcw9pod',
+      {
+        form_name: form.name,
+        to_name: 'Manodev',
+        from_email: form.email,
+        to_email: 'noorkhan.95150@gmail.com',
+        message: form.message,
+      },
+      '1EOwsZBhCGzlQIZIH'
+      
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Merci, je reviendrai vers vous bientôt')
+
+        setForm ({
+          name:'',
+          email:'',
+          message:'',
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error);
+
+        alert('Oups quelque chose n\' a pas fonctionné')
+      })
+  }
 
 
   return (
