@@ -109,7 +109,7 @@ const Contact = () => {
             <textarea 
             rows="7"
             type="text"
-            name="Message"
+            name="message"
             value={form.message}
             onChange={handleChange}
             placeholder="Décrivez moi votre besoin ..."
